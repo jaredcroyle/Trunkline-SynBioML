@@ -1,0 +1,15 @@
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=0.24.2
+scipy>=1.7.0
+joblib>=1.0.1
+matplotlib>=3.4.2
+seaborn>=0.11.2
+pyyaml>=5.4.1
+Pillow>=8.4.0  # For image handling
+py2app>=0.20.2  # For macOS app bundle creation
+pyinstaller>=5.13.0  # For creating the standalone executable
+pyobjc-core>=9.0  # For macOS integration
+pyobjc-framework-Cocoa>=9.0  # For macOS native UI elements
+pyobjc-framework-WebKit>=9.0  # For web view components
+pyobjc-framework-Quartz>=9.0  # For graphics and window management

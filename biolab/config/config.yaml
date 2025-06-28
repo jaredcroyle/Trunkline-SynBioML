@@ -1,0 +1,34 @@
+# Trunkline Configuration File
+
+# Model Configuration
+model:
+  type: rf          # Model type to use (rf, gp, lr, etc.)
+  num_features: 10  # Number of features to select
+  build_new: true   # Whether to build new models or load existing ones
+
+# Data Configuration
+data:
+  input_file: biolab/data/Limonene_data.csv  # Path to input data file (relative to project root)
+  output_dir: results/                # Base output directory (relative to project root)
+  model_dir: results/saved_models/    # Directory for saved models (relative to project root)
+  plots_dir: results/plots/           # Directory for plots (relative to project root)
+  report_dir: results/reports/        # Directory for reports (relative to project root)
+  results_dir: results/metrics/       # Directory for metrics (relative to project root)
+
+# Logging Configuration
+logging:
+  level: INFO    # Logging level (DEBUG, INFO, WARNING, ERROR)
+  file: results/pipeline.log  # Log file path (relative to project root)
+
+# Ensemble Configuration
+ensemble:
+  use_ensemble: true  # Whether to use ensemble models
+  models:             # List of models to include in ensemble
+    - rf
+    - gp
+    - lr
+
+# Feature Selection Configuration
+feature_selection:
+  method: shap      # Feature selection method (shap, etc.)
+  num_features: 10  # Number of features to select

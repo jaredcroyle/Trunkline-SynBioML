@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Test files and directories
+*test*.py
+*test*/
+test_*
+*_test.py
+*_test/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build and release
+# trunkline.spec  # Commented out to allow spec file
+build/
+dist/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Project specific
+results/
+*.joblib
+*.pkl
+*.pth
+*.h5
+*.hdf5
+*.model
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Docker
+*.tar.gz
+*.tar
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

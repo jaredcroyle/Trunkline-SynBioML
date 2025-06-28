@@ -1,0 +1,47 @@
+# Default configuration for Trunkline ML Pipeline
+
+data:
+  input_file: "Trunkline/data/Limonene_data.csv"
+  output_dir: "data/processed"
+  test_size: 0.2
+  random_state: 42
+
+model:
+  model_dir: "saved_models"
+  model_types: ["rf", "gb", "lr"]  # Random Forest, Gradient Boosting, Linear Regression
+  use_ensemble: True
+  save_model: True
+  load_existing: False
+
+feature_selection:
+  use_feature_selection: True
+  n_features: 10
+  method: "shap"  # Options: "shap", "rf_importance", "l1"
+
+training:
+  cv_folds: 5
+  n_iter: 50  # For randomized search
+  n_jobs: -1  # Use all available cores
+  scoring: "neg_mean_squared_error"
+
+visualization:
+  plots_dir: "plots"
+  plot_importance: True
+  plot_predictions: True
+  plot_residuals: True
+
+report:
+  output_dir: "reports"
+  format: "html"  # Options: "html", "pdf", "both"
+  include_plots: True
+
+design_generation:
+  n_designs: 100
+  output_path: "designs/generated_designs.csv"
+  method: "lhs"  # Latin Hypercube Sampling
+
+logging:
+  level: "INFO"
+  file: "logs/trunkline.log"
+  max_size_mb: 10
+  backup_count: 5
