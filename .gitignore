@@ -49,6 +49,20 @@ ENV/
 build/
 dist/
 
+# Large binary files
+*.dmg
+*.app
+*.dSYM/
+*.pkg
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+*.rar
+*.whl
+*.exe
+*.msi
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
