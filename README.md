@@ -241,9 +241,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback, please reach out:
 
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **Email**: jcroyle@berkeley.edu
+- **GitHub**: [@jaredcroyle](https://github.com/jaredcroyle)
 
 ---
 
@@ -300,10 +299,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Contact
 
